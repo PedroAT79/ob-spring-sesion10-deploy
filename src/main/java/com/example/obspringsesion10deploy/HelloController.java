@@ -9,7 +9,7 @@ public class HelloController {
 
     @Value("${app.varexample}")
 
-    @GetMapping("/hola")
+    @GetMapping("/")
     public String holaMundo(){
         return "Hola 1 Mundo que tal vamos, hasta luego!!";
     }
